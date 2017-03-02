@@ -15,15 +15,15 @@ int main() {
 
 void jukebox(int sound) {
 	switch (sound) {
-	case 0:
+	case 1:
 		PlaySound(TEXT("cartoon005.wav"), NULL, SND_FILENAME);
 		cout << "cartoon005.wav" << endl;
 		break; 
-	case 1:
+	case 2:
 		PlaySound(TEXT("cartoon044.wav"), NULL, SND_FILENAME);
 		cout << "cartoon044.wav" << endl;
 		break;
-	case 2:
+	case 3:
 		PlaySound(TEXT("cartoon047.wav"), NULL, SND_FILENAME);
 		cout << "cartoon047.wav" << endl;
 
