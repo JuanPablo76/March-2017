@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	char input = 'b';
+	int count = 0;
+
+
+
+
+	while (input == 'b'){ 
+		cin >> input;
+		if (input == 'b')
+			count++;
+		else if (input != 'b')
+			cout << count << endl;
+
+	}
+}
